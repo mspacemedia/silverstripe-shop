@@ -99,7 +99,7 @@ class Order extends DataObject
         'Name'        => 'Customer',
         'LatestEmail' => 'Email',
         'Total'       => 'Total',
-        'Status'      => 'Status',
+        'StatusI18N'      => 'Status',
     );
 
     private static $searchable_fields = array(
